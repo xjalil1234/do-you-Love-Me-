@@ -1,0 +1,59 @@
+*{
+    overflow: hidden;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+margin: 0;
+padding: 0;
+}
+
+body{
+    padding-top: 100px;
+    height: 600px;
+   
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.heart{
+    width: 30px;
+}
+
+
+h1{
+    margin-bottom: 50px;
+    font-size: 2em;
+    text-align: center;
+}
+
+button{
+    padding:10px 30px;
+    font-size: 1.5em;
+    border-radius: 50px;
+    border: none;
+    margin-right: 40px;
+    background-color: rgb(193, 191, 191);
+   height: 50px;
+    
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+.yes{
+    color:green;
+}
+
+
+.no{
+    color: red;
+}
+
+.move{
+    transform: translateY(50px);
+}
